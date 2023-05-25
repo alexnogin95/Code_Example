@@ -1,0 +1,122 @@
+
+.text_label {
+    display: block;
+    line-height: 5px;
+    font-weight: 400;
+}
+.header_p{
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.126em;
+    font-size: 1.867em;
+    margin: 31px 0 23px;
+    color: #333;
+}
+.inputtext{
+    color: #333;
+    width: 200px;
+    max-width: 100%;
+}
+.radio_form1{
+    display: flex;
+    flex-direction: column;
+}
+.radio_form{
+    display: flex;
+}
+.radio_form input{
+    padding-right: 5px;
+}
+input[type="radio"], input[type="checkbox"]{
+    margin-right: 5px;
+}
+input[type="text"]{
+    border-radius: 5px;
+    border-width: 1px;
+}
+.select_storage{
+    border-radius: 5px;
+    padding: 2px 10px 3px 10px;
+}
+.select_brand{
+    width: 100%;
+    border-radius: 5px;
+    padding: 3px 5px 3px 5px;
+}
+.composition_label{
+    text-align: center;
+    color: #df1616;
+    font-weight: 700;
+    font-size: 18px;
+}
+.files_form{
+    margin-top: 31px;
+    margin-bottom: 23px;
+}
+.form_composition{
+    display: inline-block;
+    width: 100%;
+}
+.no-padding-l{
+    padding-left: unset;
+}
+.no-padding-r{
+    padding-right: unset;
+}
+.padding-border{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.plus, .minus{
+    border: none;
+    background-color: #72dfff;
+    color: white;
+    font-weight: 900;
+    width: 20px;
+    margin-right: 10px;
+    position: relative;
+    margin-left: 10px;
+    top: 38px;
+}
+.text_comment{
+    display: block;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 130px;
+}
+.item{
+    width: 100%;
+    padding: 0 4px 4px 0;
+}
+.row_composition{
+    margin-top: 31px;
+    display: inline-block;
+}
+
+
+@media (max-width: 1439px){
+    .plus, .minus{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+@media (max-width: 991px){
+    .plus, .minus{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .padding-top-md{
+        padding-top: 10px;
+    }
+    .no-padding-l{
+        padding-left: 3px;
+    }
+}
+@media (max-width: 575px){
+    .files_form {
+        margin-top: 65px;
+    }
+    .row_composition{
+        margin-top: 51px;
+    }
+}
